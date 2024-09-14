@@ -1,0 +1,83 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Estilizando a seção de busca */
+.containerBusca {
+    background-color: #ccc; /* Fundo cinza */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px; /* Largura do "quadrado" */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Bordas arredondadas no input */
+    border: 1px solid #999;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas no botão */
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Estilizando a exibição do personagem */
+.containerPersonagem {
+    background-color: #ccc; /* Fundo cinza */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 300px; /* Largura do "quadrado" */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#imgPersonagem {
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px; /* Bordas arredondadas na imagem */
+}
+
+#nomePersonagem {
+    font-size: 18px;
+    color: black;
+    background-color: gray;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px; /* Bordas arredondadas no nome */
+}
